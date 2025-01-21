@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+.color-primary{
+    color: #FEA301;
+}
+
+.shared-font-style-1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #202020;
+}
+.shared-font-style-2 {
+font-weight: 500;
+font-size: 1rem;
+color: #808080;
+}
+.shared-font-style-btn {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+
+/* navbar-related-styles */
+ul > li {
+    list-style: none;
+    
+}
+ul > li >a {
+    text-decoration: none;
+    
+}
+
+
+
+.navbar{
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.nav-item {
+    margin-right: 32px;
+}
+
+.navbar,  .banner {
+    max-width: 1160px;
+    margin: 0 auto;
+   
+}
+
+
+.btn-primary{
+ color: #FFFFFF;
+ background-color: #FEA301;
+ font-weight: 600;
+ font-size: 1.25rem;
+ border-radius: 12px;
+ border: none;
+ padding: 10px 60px;
+}
+
+.title-name{
+    color: #111111;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.nav-link-1{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.nav-link-2{
+    color: #01ACFD;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.nav-link-3{
+    color: #05D4DF;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.nav-link-4{
+    color: #5D58EF;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* banner-section-styles */
+
+.banner-heading{
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: #111111;
+}
+
+.vision{
+    color: #01ACFD;
+}
+
+.empowering{
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: #FEA301;
+}
+
+.banner-description{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #111111;
+}
+
+.btn-secondary{
+    background-color: #111111;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.25rem;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 47px;
+}
+
+
+
+
+.banner-content{
+    
+    padding: 122px 50px 122px 0px;
+}
+
+/* main section styles */
+ .bg-main{
+    background-image: url(../assets/bg.png);
+    margin: 0 auto;
+ }
+
+
+ .Curriculum-heding{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.87rem;
+    color: #000000;
+ }
+
+
+ 
+ 
+
+ .banner-profile-pic{
+    width: 100%;
+    height: auto;
+ }
+
+
+
+ /* footer style */
+ 
+
+/* responsive for mobile devices */
+
+@media screen and (max-width: 576px) {
+    .nav-links , .butn{
+        display: none;
+        
+    }
+    
+       .navbar{
+        border-bottom: 1px solid orange;
+       }
+       .banner-content{
+       
+        text-align: center;
+       }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .nav-title{
+        display: none;
+    }
+    .nav-logo{
+        flex-direction: row;
+    }
+    
+}
