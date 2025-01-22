@@ -185,6 +185,7 @@ ul > li >a {
     gap: 25px;
     border: 1px solid blue;
     border-radius: 19px;
+    
    
    
  }
@@ -294,6 +295,7 @@ ul > li >a {
     border-radius: 18px;
     background-color: #ffffff;
     margin-right: 10px;
+    
     /* margin-top: -15px; */
  }
  .story-1-pic{
